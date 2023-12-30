@@ -1,3 +1,4 @@
+// 5초간격으로 웹사이트 img, backgroundimage 변경
 setInterval(()=>{
     let imgs = document.querySelectorAll("img");
 
@@ -13,4 +14,4 @@ setInterval(()=>{
          }
        })
 
-},500)
+},500) 
